@@ -1,66 +1,75 @@
 #divWrapper {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
-#imgWrapper{
+
+#imgWrapper {
     width: 10%;
     height: 10%;
     align-self: center;
     align-content: center;
     justify-content: center;
 }
-#title
-{
-font: small;
-text-align: center;
-justify-content: center;
-padding: 0;
-margin: 0;
 
-}
-h1{
-    margin: 0; 
+#title {
+    text-align: center;
     padding: 0;
-  
+    margin: 0;
+    border: 10px single pink;
 }
-li a{
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: darkgray;
+}
+
+li a {
     text-decoration: none;
     color: white;
 }
-ul{
+
+ul {
     padding: 60;
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     padding: 10px;
     background: black;
     list-style-type: none;
 }
+
+#title:hover>audio {
+    display: block;
+}
+
 li {
-    
     margin: 0px;
     padding: 0px;
     padding-left: 0px;
     background-color: #000000;
-    color: aliceblue; 
-  
-    margin: 0 20px; 
+    color: aliceblue;
+    margin: 0 20px;
 }
 
-
-body{
-    background-image: url(indianapolisSkyline.jpg);
+body {
+    background-image: url(Indianapolis_skyline_at_night_-_Stierch.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
-    
 }
-#audio{
+
+#audio {
     display: flex;
     justify-content: center;
-    align-content: center;  
+    align-content: center;
+
+}
+
+h4 {
+    color: darkgray;
 }

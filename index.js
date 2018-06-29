@@ -1,0 +1,3 @@
+$(imgWrapper) .hover (function(){
+    
+}
