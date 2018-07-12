@@ -12,7 +12,11 @@
 }
 
 #title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-content: center;
     padding: 0;
     margin: 0;
     border: 10px single pink;
@@ -54,13 +58,17 @@ li {
 }
 
 body {
-    background-image: url(Indianapolis_skyline_at_night_-_Stierch.jpg);
+    background-image: url(astronomy-beautiful-clouds-355465.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
+    color: darkslategrey;
+}
+text{
+    background: #000000;
 }
 
 #audio {
