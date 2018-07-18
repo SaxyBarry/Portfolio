@@ -4,11 +4,17 @@
 }
 
 #imgWrapper {
-    width: 10%;
-    height: 10%;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+#imgWrap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #title {
@@ -19,7 +25,6 @@
     align-content: center;
     padding: 0;
     margin: 0;
-    border: 10px single pink;
 }
 
 h1 {
@@ -65,9 +70,11 @@ body {
     background-size: cover;
     padding: 0;
     margin: 0;
-    color: darkslategrey;
+    color: white;
+    text-decoration: none;
 }
-text{
+
+text {
     background: #000000;
 }
 
@@ -75,9 +82,69 @@ text{
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
 
 h4 {
     color: darkgray;
+}
+
+a {
+    color: darkorange;
+}
+
+#contactdiv {
+    border: 30px double palevioletred;
+    padding: 0%;
+    margin: 0%;
+}
+
+.tic td {
+    border: 3px dashed darkgray;
+}
+
+.tic td:hover {
+    background: blueviolet;
+}
+
+table.tic {
+    border: 10px double palevioletred;
+    height: 500px;
+    width: 500px;
+}
+table.connect { 
+    height: 700px;
+    width: 1000px;
+    border: 10px double black;
+    padding: 10px;
+    margin: 30px;
+    background-color: blue; 
+}
+.connect tr{
+    height: 50px;
+    width: 20px;
+}
+.connect td{
+    height: 50px;
+    width: 1000px;
+    border: 2px solid yellow;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.connect .Checkers {
+    border-radius: 50%;
+}
+
+.connect .Red {
+    background-color: red;
+}
+
+.connect .Black {
+    background-color: black;
+}
+.connect td:hover{
+    background-color: yellow;
 }
